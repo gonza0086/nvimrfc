@@ -1,7 +1,5 @@
 local keymap = vim.keymap
 
--- general keymaps
--- leader
 vim.g.mapleader = " "
 
 -- go normal mode keymaps
@@ -43,6 +41,9 @@ keymap.set("n", "<C-l>", ":wincmd l<CR>")
 keymap.set("n", "<leader>to", ":tabnew<CR>")
 keymap.set("n", "<leader>tn", ":tabn<CR>")
 keymap.set("n", "<leader>tp", ":tabp<CR>")
+
+-- term
+keymap.set("n", "<leader>tt", ":term<CR>")
 
 -- plugins keymaps
 -- nvim-tree

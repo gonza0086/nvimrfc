@@ -28,7 +28,7 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- themes
-	use("dracula/vim") -- dracula
+	use("EdenEast/nightfox.nvim") -- dracula
 
 	-- plugins dependencies
 	use("nvim-lua/plenary.nvim")
